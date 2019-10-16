@@ -2019,7 +2019,11 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		.icon > .label {
+		.icons > li > .label {
+			display: none;
+    }
+    
+    .icon > .label {
 			display: none;
 		}
 
@@ -2033,7 +2037,16 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		}
+    }
+
+  .icons > li > i {
+    font-size: 5em;
+  }
+
+  .iconify {
+    font-size: 5em;
+    color: purple;
+  }
 
 /* Image */
 
@@ -2192,7 +2205,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+    padding-left: 0;
 	}
 
 		ul.icons li {
@@ -2205,7 +2218,8 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+        font-size: 2.5em;
+        padding: .5em;
 			}
 
 /* Labeled Icons */
